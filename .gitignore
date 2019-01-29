@@ -1,0 +1,8 @@
+# Can ignore specific files
+./1_Measured_Data/h_Estimated_CTW_Train.mat
+./1_Measured_Data/h_Estimated_CTW_Test.mat
+./1_Measured_Data/r_Position_CTW_Train.mat
+./1_Measured_Data/r_Position_CTW_Test.mat
+./1_Measured_Data/SNR_CTW_Test.mat
+./1_Measured_Data/SNR_CTW_Train.mat
+
