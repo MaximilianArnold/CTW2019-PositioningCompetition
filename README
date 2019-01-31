@@ -24,9 +24,9 @@ How to get started:
 - Some measurement sanity checks and first predictions from the INUE are shown in 2_SanityChecks"; Take a look!
 - There is a Notebook in the main directory called "CTW2019_StartingNotebook.ipynb" (a simple dense net is provided to get you started; you may change anything you like, e.g., data format for feeding the network, net structure, etc...) 
 - The datasets are available in different formats (The jupyter takes Matload from Hdf5.loadmat function):
-  MAT:    https://drive.google.com/open?id=11IGqnn9k8vjkgfMG4G0-AYTgIA5CoDMW
-  HDF;    https://drive.google.com/open?id=11qtImrA8Y12L_2RncRC12GXKo0pdrYhT
-  PICKEL: https://drive.google.com/open?id=1HNXjmyMZe6D828oYuhEQqmW5jwf4wy_I
+  MAT:    https://drive.google.com/open?id=1Ldk7Kz178Q7r6J7PwhIvVj_GIQUEoTls
+  H5;     https://drive.google.com/open?id=1abRC-QsSBmWiyc6fFlL9x5mNO-9npSyc
+  PICKEL: https://drive.google.com/open?id=1hHahhemCgbTKaUiwQEDps989PAzbHH41
   Tere is a position and channel mat file + SNR file. Be careful with dimensions, Antennas there are 16, subcarriers 924, train is (17486 long). 2000 for test. Use print shape to be sure.
   the first index shows the order for each channel to each position. 16 antennas were measured and 924 subcarriers used; COMPLEX Coefficients please be careful!
   
@@ -34,8 +34,7 @@ How to get started:
 
 How to compete:
 
-- Please send your prediction on the h_Estimated_Test.mat to arnold@inue.uni-stuttgart.de
-- Only 3 predictions are allowed and a feedback for the MSE for the distance will be given.
+In the morning of May 26.5.2019, at IEEE CTW, a set of test data will be distributed. Participating teams may run their algorithms on this test data set, and submit their estimated position coordinates to data-competition@inue.uni-stuttgart.de no later than 20:00. Winners will be determined by the organizers by evaluating and comparing the root-mean-square position error. (Ground truth will not be available to the participants, and the test dataset will not be available before the conference. It will be averaged over all test positions)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
