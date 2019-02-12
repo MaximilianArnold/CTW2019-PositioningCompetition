@@ -1,12 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Dataset for  the CTW Competition 2019: Licensed under Creative Commons Attribution 4.0 International Public License,  with Attribution CC BY
+Dataset for  the CTW Competition 2019: 
 
 By Maximilian Arnold, Marc Gauger,  Jakob Hoydis, and Stephan ten Brink.
 Contact: arnold / gauger / tenbrink@inue.uni-stuttgart.de
 
 This code and dataset is provided for the CTW Competition: Indoor user localisation.
-It is licensed under the GPLv2 license. If you in any way use this code for research that results in publications, please cite it appropriately. 
+It is licensed under the Creative Commons Attribution 4.0 license. If you in any way use this code for research that results in publications, please cite it appropriately. 
 
 Paper: [1] Novel Massive MIMO Channel Sounding Data Applied to Deep Learning-based Indoor Positioning, SCC 2019 (available on arxiv)
 
