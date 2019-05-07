@@ -2,7 +2,7 @@
 
 Dataset for  the CTW Competition 2019: 
 
-By Maximilian Arnold, Marc Gauger,  Jakob Hoydis, and Stephan ten Brink.
+By Maximilian Arnold, Marc Gauger, and Stephan ten Brink.
 Contact: arnold / gauger / tenbrink@inue.uni-stuttgart.de
 
 This code and dataset is provided for the CTW Competition: Indoor user localisation.
@@ -24,9 +24,9 @@ How to get started:
 - Some measurement sanity checks and first predictions from the INUE are shown in 2_SanityChecks"; Take a look!
 - There is a Notebook in the main directory called "CTW2019_StartingNotebook.ipynb" (a simple dense net is provided to get you started; you may change anything you like, e.g., data format for feeding the network, net structure, etc...) 
 - The datasets are available in different formats (The jupyter takes Matload from Hdf5.loadmat function):
-  MAT:    https://drive.google.com/open?id=1Ldk7Kz178Q7r6J7PwhIvVj_GIQUEoTls
-  H5;     https://drive.google.com/open?id=1abRC-QsSBmWiyc6fFlL9x5mNO-9npSyc
-  PICKEL: https://drive.google.com/open?id=1hHahhemCgbTKaUiwQEDps989PAzbHH41
+  MAT:    https://drive.google.com/open?id=1zMHtrTjr9Uf08Jh2yo24ufsyi-9iQfFD
+  NP:     https://drive.google.com/open?id=1Uv4Ys-jJCtsiBgl5w7YYASyAmh8_lT7d
+  
   Tere is a position and channel mat file + SNR file. Be careful with dimensions, Antennas there are 16, subcarriers 924, train is (17486 long). 2000 for test. Use print shape to be sure.
   the first index shows the order for each channel to each position. 16 antennas were measured and 924 subcarriers used; COMPLEX Coefficients please be careful!
   
